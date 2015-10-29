@@ -10,7 +10,7 @@ from django.contrib.auth.models import User
 from django.utils.decorators import method_decorator
 import httplib, urllib, json, logging
 
-from .models import Device
+from .models import Device, APNService
 from .forms import DeviceForm
 from .decorators import api_authentication_required
 from .http import HttpResponseNotImplemented, JSONResponse
